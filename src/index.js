@@ -8,9 +8,10 @@ import { BrowserRouter } from 'react-router-dom'; // ✅ Add this
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter> {/* ✅ Wrap App in BrowserRouter */}
-      <App />
-    </BrowserRouter>
+    <BrowserRouter basename="/food-delivery-service">
+  <App />
+</BrowserRouter>
+
   </React.StrictMode>
 );
 
