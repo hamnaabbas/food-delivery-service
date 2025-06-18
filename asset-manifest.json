@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/food-delivery-service/static/css/main.17bed2ca.css",
+    "main.js": "/food-delivery-service/static/js/main.92ea84e6.js",
+    "static/js/453.8a39b77b.chunk.js": "/food-delivery-service/static/js/453.8a39b77b.chunk.js",
+    "static/media/pizza.jpg": "/food-delivery-service/static/media/pizza.4660902cdd04fa754b22.jpg",
+    "static/media/city3.jpeg": "/food-delivery-service/static/media/city3.22ea00785dbbe5403c2b.jpeg",
+    "static/media/salad.png": "/food-delivery-service/static/media/salad.dcd9d0669ec9920cd334.png",
+    "static/media/burger.jpeg": "/food-delivery-service/static/media/burger.5386dbe9a334b0d69bf0.jpeg",
+    "static/media/city1.jpeg": "/food-delivery-service/static/media/city1.839296badbefc2d08f0d.jpeg",
+    "static/media/Makizushi.jpg": "/food-delivery-service/static/media/Makizushi.d069f107befc4d849fed.jpg",
+    "static/media/city4.jpg": "/food-delivery-service/static/media/city4.214ee104ef6015cd3974.jpg",
+    "static/media/pasta.jpg": "/food-delivery-service/static/media/pasta.c4e4757d553bd16446c3.jpg",
+    "static/media/city2.jpg": "/food-delivery-service/static/media/city2.055e9cbd97de84728929.jpg",
+    "static/media/OIP1.jpeg": "/food-delivery-service/static/media/OIP1.627647c8ff8e5c45ad5d.jpeg",
+    "static/media/man-suit-with-white-shirt-black-tie_905510-3629.avif": "/food-delivery-service/static/media/man-suit-with-white-shirt-black-tie_905510-3629.07229844cfa5b8e4de3e.avif",
+    "static/media/OIP.jpeg": "/food-delivery-service/static/media/OIP.46802df995242a70233a.jpeg",
+    "index.html": "/food-delivery-service/index.html",
+    "main.17bed2ca.css.map": "/food-delivery-service/static/css/main.17bed2ca.css.map",
+    "main.92ea84e6.js.map": "/food-delivery-service/static/js/main.92ea84e6.js.map",
+    "453.8a39b77b.chunk.js.map": "/food-delivery-service/static/js/453.8a39b77b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17bed2ca.css",
+    "static/js/main.92ea84e6.js"
+  ]
+}
