@@ -1,0 +1,97 @@
+/* Container for the entire component */
+.deals-container {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+/* Title styling */
+.deals-container h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Deals grid layout */
+.deals-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid */
+  gap: 20px; /* Space between the grid items */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Deal item styling */
+.deal-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.deal-item:hover {
+  transform: translateY(-10px); /* Slight lift effect on hover */
+}
+
+/* Styling for the image */
+.deal-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: opacity 0.3s ease;
+}
+
+.deal-item:hover .deal-image img {
+  opacity: 0.8; /* Fade effect on image hover */
+}
+
+/* Deal info area styling */
+.deal-info {
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 0 0 10px 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform: translateY(100%);
+  transition: transform 0.3s ease;
+}
+
+.deal-item:hover .deal-info {
+  transform: translateY(0);
+}
+
+/* Deal title and price */
+.deal-info h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.deal-info .price {
+  font-size: 20px;
+  color: #e74c3c; /* Price in red */
+  margin-bottom: 15px;
+}
+
+.deal-info .deal-description {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Optional: Add some spacing between the deal items and improve legibility */
+.deal-item {
+  background-color: #f9f9f9;
+  overflow: hidden;
+}
+
+.deal-item img {
+  object-fit: cover; /* Makes images fit properly */
+}
+
+.deal-info h3,
+.deal-info .price,
+.deal-info .deal-description {
+  text-align: left;
+}

@@ -1,0 +1,62 @@
+/* Main component styles */
+.main-container {
+  background-color:white;
+  padding: -10px;
+  
+
+}
+
+.slider {
+ 
+  width: 100%;
+  /* Optional: Limit the width of the slider */
+  height: 200px; /* Set height for the full-image display */
+  background-color: rgb(36, 36, 38);
+  margin: 0 auto;
+  overflow: hidden; /* Hide anything outside the container */
+
+}
+
+.slider-content {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.slide-item {
+  min-width: 100%; /* Each slide takes up the full width of the slider */
+  height: 100%; /* Full height of the slider */
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  border-radius: 50px;
+}
+
+.slide-item img {
+  width: 100%;
+  height:100%;/* Ensure image takes up full height */
+  object-fit:cover; /* Cover the entire area of the slide */
+ border-radius: 0 0 5px 5px;
+}
+
+.arrows {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.arrow {
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: black;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+
+
